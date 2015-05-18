@@ -35,5 +35,5 @@ macro - `transaction_test` - to abstract over running different application func
 `bad_apply_transaction` is set up to be broken in different ways.
 
 The use of `TEST_NUM_PLAYERS` simplifies the `Arbitrary` implementation, but is quite inelegant.
-A more advanced approach would be to generate arbitrary (Lottery, Vec<Transaction>) tuples so that
+A more advanced approach would be to generate arbitrary `(Lottery, Vec<Transaction>)` tuples so that
 the indicies in the transactions fit within the length of the Lottery's `tickets` vector.
