@@ -1,0 +1,10 @@
+[package]
+name = "quickcheck-example"
+version = "0.0.1"
+authors = ["Michael Sproul <micsproul@gmail.com>"]
+
+# dev-dependencies are only built when testing.
+[dev-dependencies]
+
+quickcheck = "*"
+rand = "*"
